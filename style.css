@@ -134,13 +134,18 @@ a{color:inherit}
   transform:scale(1);
 }
 
-.hero-overlay{
+.hero::after{
+  content:"";
   position:absolute;
   inset:0;
-  z-index:1;
   background:
-    linear-gradient(90deg,rgba(7,34,59,.86) 0%,rgba(7,34,59,.58) 38%,rgba(7,34,59,.26) 100%),
-    linear-gradient(180deg,rgba(3,20,36,.28) 0%,rgba(3,20,36,.52) 100%);
+  linear-gradient(
+    90deg,
+    rgba(8,25,45,.42) 0%,
+    rgba(8,25,45,.18) 38%,
+    rgba(8,25,45,.12) 100%
+  );
+  z-index:1;
 }
 
 .hero-content{
