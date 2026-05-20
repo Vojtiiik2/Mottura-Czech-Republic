@@ -4,34 +4,43 @@ const products = [
     desc: "Látkové a technické rolety pro interiérové stínění.",
     detail: "Rolety Mottura jsou technické systémy pro přesnou regulaci světla, soukromí a tepelného komfortu. Hodí se pro rezidenční interiéry, kanceláře, hotely i atypická okna.",
     uses: ["látkové rolety", "screenové a technické látky", "špaletová okna", "manuální i motorické ovládání", "rezidenční a komerční projekty"],
-    img: "assets/img/product-01.svg",
+    img: "assets/img/products/rolety-interierove.jpg",
     italyUrl: "https://mottura.com/en/products/",
     catalogUrl: "assets/catalogs/mottura-roller-blinds.pdf"
   },
   {
-    title: "Garnýže",
+    title: "Kolejnice",
     desc: "Dekorativní i technické systémy pro zavěšení textilu.",
     detail: "Garnýže a kolejnicové systémy jsou základ pro kvalitní zavěšení záclon a závěsů. Podle typu interiéru mohou být nenápadné technické, viditelné dekorativní nebo součástí architektonického detailu.",
     uses: ["záclony a závěsy", "jednokolejné i vícekolejné řešení", "stropní a nástěnná montáž", "rovné i atypické dispozice", "hotely, byty, domy a kanceláře"],
-    img: "assets/img/product-02.svg",
+    img: "assets/img/products/kolejnice.jpg",
     italyUrl: "https://mottura.com/en/products/",
     catalogUrl: "assets/catalogs/mottura-drapery-track-systems.pdf"
   },
   {
-    title: "Motorické garnýže",
+    title: "Motorické systémy",
     desc: "Pohodlné ovládání závěsů pro rezidenční i komerční projekty.",
     detail: "Motorické systémy umožňují pohodlné ovládání závěsů a textilu tlačítkem, dálkovým ovladačem nebo přes chytrou domácnost. Jsou vhodné tam, kde je důležitý komfort, přesnost a reprezentativní provedení.",
     uses: ["motorické závěsy", "ovládání vypínačem", "dálkové nebo chytré ovládání", "větší prosklené plochy", "prémiové rezidenční a komerční interiéry"],
-    img: "assets/img/product-03.svg",
+    img: "assets/img/products/motoricke-systemy.jpg",
     italyUrl: "https://mottura.com/en/products/",
     catalogUrl: "assets/catalogs/mottura-power.pdf"
   },
   {
-    title: "Záclony, závěsy, dekorace",
-    desc: "Systémy pro přesné a estetické vedení interiérových textilií.",
-    detail: "Mottura nabízí technické systémy, na kterých stojí výsledný vzhled záclon a závěsů. Nejde jen o profil, ale o přesné vedení textilu, vhodný způsob řasení a dlouhodobě funkční detail.",
-    uses: ["záclony", "závěsy", "vícevrstvé textilní řešení", "dekorativní i skryté systémy", "spolupráce s architekty a designéry"],
-    img: "assets/img/product-04.svg",
+    title: "Záclony",
+    desc: "Lehkost, světlo a jemná práce s atmosférou interiéru.",
+    detail: "Záclony změkčují světlo, vytváří soukromí a dodávají prostoru klidnější atmosféru. Výsledný efekt stojí nejen na textilu, ale i na správném systému zavěšení a proporcích prostoru.",
+    uses: ["jemné rozptýlení světla", "moderní i klasické interiéry", "kolejnicové systémy", "minimalistické řešení", "rezidenční i komerční projekty"],
+    img: "assets/img/products/zaclony.jpg",
+    italyUrl: "https://mottura.com/en/indoor-curtains/",
+    catalogUrl: "assets/catalogs/mottura-drapery-track-systems.pdf"
+  },
+  {
+    title: "Závěsy",
+    desc: "Textilní vrstvy pro soukromí, akustiku a atmosféru interiéru.",
+    detail: "Závěsy pomáhají regulovat světlo, zlepšují akustiku prostoru a dotváří celkový charakter interiéru. Důležitá je nejen látka, ale i technický systém a způsob řasení.",
+    uses: ["blackout i dekorativní látky", "větší prosklené plochy", "kolejnice a skryté systémy", "akustický efekt", "rezidenční i hotelové projekty"],
+    img: "assets/img/products/zavesy.jpg",
     italyUrl: "https://mottura.com/en/indoor-curtains/",
     catalogUrl: "assets/catalogs/mottura-drapery-track-systems.pdf"
   },
@@ -40,7 +49,7 @@ const products = [
     desc: "Panelové systémy pro velké prosklené plochy a členění prostoru.",
     detail: "Japonské posuvné stěny pracují s většími textilními panely. V interiéru mohou sloužit jako stínění, jemné členění prostoru nebo minimalistický architektonický prvek.",
     uses: ["velké prosklené plochy", "posuvné textilní panely", "členění prostoru", "minimalistické interiéry", "rezidenční i komerční projekty"],
-    img: "assets/img/product-05.svg",
+    img: "assets/img/products/japonske-steny.jpg",
     italyUrl: "https://mottura.com/en/products/",
     catalogUrl: "assets/catalogs/mottura-panel-track-systems.pdf"
   },
@@ -49,34 +58,25 @@ const products = [
     desc: "Elegantní textilní stínění s technicky čistým ovládáním.",
     detail: "Římské rolety kombinují měkkost textilu s přesným technickým systémem. Jsou vhodné tam, kde má být okno řešené elegantně, čistě a s menším objemem látky než u klasických závěsů.",
     uses: ["římské rolety", "koupelny, kuchyně a obytné místnosti", "dekorativní textilní stínění", "manuální i motorické ovládání", "atypická a menší okna"],
-    img: "assets/img/product-06.svg",
+    img: "assets/img/products/rimske-rolety.jpg",
     italyUrl: "https://mottura.com/en/products/",
     catalogUrl: "assets/catalogs/mottura-roman-shade-systems.pdf"
   },
   {
-    title: "Klasické dekorativní garnýže",
-    desc: "Viditelné designové prvky pro tradiční i moderní interiéry.",
-    detail: "Dekorativní garnýže jsou viditelnou součástí interiéru. Uplatní se tam, kde má být technický systém zároveň designovým prvkem a navázat na materiály, kovové detaily nebo styl prostoru.",
-    uses: ["viditelné garnýže", "dekorativní koncovky", "tradiční i moderní interiéry", "závěsy a záclony", "designové ladění s interiérem"],
-    img: "assets/img/product-07.svg",
-    italyUrl: "https://mottura.com/en/products/",
-    catalogUrl: "assets/catalogs/mottura-drapery-track-systems.pdf"
-  },
-  {
-    title: "Moderní dekorativní systémy",
-    desc: "Minimalistické profily a kolejnice pro současnou architekturu.",
+    title: "Vertikální žaluzie",
+    desc: "Elegantní regulace světla pro moderní interiéry i velké plochy.",
     detail: "Moderní dekorativní systémy propojují technickou přesnost s čistým vzhledem. Hodí se pro interiéry, kde má být zavěšení textilu nenápadné, přesné a architektonicky klidné.",
     uses: ["minimalistické profily", "moderní kolejnice", "skryté nebo pohledové řešení", "současná architektura", "vyšší nároky na detail"],
-    img: "assets/img/product-08.svg",
+    img: "assets/img/products/vertikalni-zaluzie.jpg",
     italyUrl: "https://mottura.com/en/products/",
     catalogUrl: "assets/catalogs/mottura-drapery-track-systems.pdf"
   },
   {
-    title: "Baldachýny",
-    desc: "Specializované systémy pro horizontální nebo šikmé vedení textilu.",
-    detail: "Baldachýnové systémy řeší situace, kde se textil nepohybuje jen svisle, ale také vodorovně nebo po šikmé rovině. Používají se pro světlíky, zimní zahrady a speciální architektonická řešení.",
-    uses: ["světlíky", "zimní zahrady", "šikmé nebo horizontální vedení", "speciální textilní konstrukce", "individuální technické řešení"],
-    img: "assets/img/product-09.svg",
+    title: "Střešní systémy",
+    desc: "Stínění pro šikmá, střešní a atypická prosklení.",
+    detail: "Systémy pro střešní a atypická okna řeší regulaci světla i tepelného komfortu u náročných architektonických realizací.",
+    uses: ["šikmá okna", "světlíky", "zimní zahrady", "atypická prosklení", "technicky náročné realizace"],
+    img: "assets/img/products/stresni-systemy.jpg",
     italyUrl: "https://mottura.com/en/products/",
     catalogUrl: "assets/catalogs/mottura-garden.pdf"
   },
@@ -85,7 +85,7 @@ const products = [
     desc: "Přirozený materiál, regulace světla a výrazný interiérový detail.",
     detail: "Dřevěné horizontální žaluzie kombinují přesnou regulaci světla s teplejším materiálovým dojmem. Jsou vhodné tam, kde má stínění působit výrazněji a stát se součástí interiéru.",
     uses: ["regulace světla", "přírodní materiálový efekt", "obytné interiéry", "pracovny a kanceláře", "výraznější designový detail"],
-    img: "assets/img/product-10.svg",
+    img: "assets/img/products/drevene-zaluzie.jpg",
     italyUrl: "https://mottura.com/en/products/",
     catalogUrl: "assets/catalogs/mottura-veniwood.pdf"
   },
@@ -94,7 +94,7 @@ const products = [
     desc: "Kompaktní stínění pro atypická okna, špalety a detailní řešení.",
     detail: "Plissé je kompaktní stínění pro okna, kde je potřeba subtilní systém, variabilní práce se světlem a přesné osazení. Hodí se pro špaletová, atypická i menší okna.",
     uses: ["špaletová okna", "atypické tvary", "menší okna", "jemná regulace soukromí", "nenápadné technické řešení"],
-    img: "assets/img/product-11.svg",
+    img: "assets/img/products/plisse.jpg",
     italyUrl: "https://mottura.com/en/products/",
     catalogUrl: "assets/catalogs/mottura-pleated-blinds.pdf"
   }
